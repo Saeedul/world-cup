@@ -31,8 +31,54 @@ header {
 .content {
     width: 50%;
     font-size: 30px;
+    margin-top: 150px;
 }
 
 .content-img {
     width: 50%;
+}
+
+.content-img img {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    height: 100%;
+    margin-bottom: -46px;
+    margin-left: 50px;
+}
+
+.content p {
+    font-weight: 300;
+    font-size: 22px;
+    width: 460px;
+}
+
+.btn {
+    padding: 15px 20px;
+    background-color: crimson;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn i {
+    margin-left: 5px;
+    transition: margin-left 0.3s;
+}
+
+.btn:hover {
+    background-color: #ee130c;
+}
+
+.btn:hover i {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
