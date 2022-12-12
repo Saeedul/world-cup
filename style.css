@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 25px;
+    width: 90%;
+    background-color: #161616;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    color: white;
+    overflow: hidden;
+}
+
+.container .min-container {
+    margin: 0px 80px;
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    font-size: 30px;
+}
+
+.content-img {
+    width: 50%;
+}
