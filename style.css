@@ -7,6 +7,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* header section starts */
+
 header {
     display: flex;
     justify-content: center;
@@ -81,4 +83,11 @@ header {
 a {
     text-decoration: none;
     color: white;
+}
+
+/* blog section starts */
+.containers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
 }
