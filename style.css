@@ -114,3 +114,52 @@ a {
     justify-content: center;
     row-gap: 5px;
 }
+
+.blog-section .options .btn {
+    background-color: white;
+}
+
+.btn a {
+    color: black;
+}
+
+.blog-section .options .btn:hover {
+    background: crimson;
+    color: white;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+.btn:nth-child(3) a {
+    color: white;
+}
+
+#active {
+    background-color: crimson;
+    color: white;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 27px;
+    column-gap: 27px;
+}
+
+.blog {
+    width: 275px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+button.tranbtn {
+    padding: 5px 19px;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
