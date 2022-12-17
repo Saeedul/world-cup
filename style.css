@@ -93,3 +93,24 @@ a {
     padding: 0% 5%;
     margin-bottom: 150px;
 }
+
+.blog-info h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.blog-section {
+    width: 220px;
+    background-color: #161616;
+    padding: 30px;
+    border-radius: 8px;
+    height: 225px;
+    position: sticky;
+    top: 50px;
+}
+
+.blog-section .options {
+    display: grid;
+    justify-content: center;
+    row-gap: 5px;
+}
