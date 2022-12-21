@@ -213,11 +213,9 @@ footer {
     border-bottom: 1px solid rgba(51, 51, 51, 0.582);
 }
 
-.privacy-policy {
-    ul li a {
-        color: gray;
-        text-decoration: none;
-    }
+.privacy-policy ul li a {
+    color: gray;
+    text-decoration: none;
 }
 
 .logos {
@@ -234,4 +232,103 @@ span.social-logos {
     grid-template-columns: repeat(3, 100px);
     justify-content: center;
     column-gap: 50px;
+}
+
+.instagram-logo {
+    height: 30px;
+    margin-top: -10px;
+}
+
+@media only screen and (min-width:668px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .container .min-container {
+        margin: 0px 0px;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .privacy-policy ul {
+        grid-template-columns: repeat(4, 1fr);
+        align-content: center;
+        row-gap: 20px;
+    }
+
+    .containers {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog-section {
+        position: unset;
+        top: 0;
+        background: none;
+        width: 80%;
+    }
+
+    .blog-section .options .btn {
+        display: flex;
+        background-color: white;
+        border: 1px solid #80808069;
+    }
+
+    .blog-section button {
+        display: flex;
+    }
+
+    .blog-section .options {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .morebtn {
+        display: block;
+        margin-left: 41%;
+    }
+}
+
+/* for mobile and other small devices */
+@media only screen and(max-width:668px) {
+    .content p {
+        font-weight: 300;
+        font-size: 22px;
+        width: unset;
+    }
+
+    .container .min-container {
+        flex-direction: column;
+        padding: unset;
+    }
+
+    .container {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .containers {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: unset;
+    }
+
+    .content {
+        justify-content: center;
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 36px;
+    }
+
+    .container .min-container {
+        margin: unset;
+        display: grid;
+        row-gap: 25px;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
