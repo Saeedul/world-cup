@@ -331,4 +331,37 @@ span.social-logos {
         align-items: center;
         justify-content: space-between;
     }
+
+    .content-img img {
+        width: 143%;
+        margin-left: 28%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .privacy-policy ul {
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+        row-gap: 20px;
+    }
+
+    .blog-section {
+        position: unset;
+        top: 0;
+        background: none;
+        width: 80%;
+    }
+
+    .blog-section .options .btn {
+        display: flex;
+        background-color: white;
+        border: 1px solid #80808069;
+    }
+
+    .head-contain {
+        display: flex;
+        justify-content: center;
+    }
 }
